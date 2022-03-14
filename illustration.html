@@ -198,7 +198,16 @@ Author URL: http://w3layouts.com
   </div>
   <!-- //gallery section -->
   
-  
+  <!--/w3l-circles-->
+  <section class="w3l-circles" id="stats">
+    <div class="midd-w3 py-5">
+      <div class="container py-lg-5 py-md-3 py-2">
+        
+
+      </div>
+    </div>
+  </section>
+  <!--//w3l-circles-->
   
   <!-- /testimonials-->
   <section class="w3l-clients" id="testimonials">
@@ -268,6 +277,39 @@ Author URL: http://w3layouts.com
   <!-- Template JavaScript -->
   <script src="assets/js/jquery-3.3.1.min.js"></script>
   <script src="assets/js/theme-change.js"></script>
+  <!--/carousel-->
+  <script src="assets/js/owl.carousel.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#owl-demo1").owlCarousel({
+        loop: true,
+        nav: false,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: false
+          },
+          736: {
+            items: 1,
+            nav: false
+          }
+        }
+      })
+    })
+  </script>
+  <!-- //script for tesimonials carousel slider -->
+  <!-- gallery popup js -->
+  <script src="assets/js/smartphoto.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const sm = new SmartPhoto(".js-img-viwer", {
+        showAnimation: false
+      });
+      // sm.destroy();
+    });
+  </script>
+  <!-- //gallery popup js -->
   <!-- disable body scroll which navbar is in active -->
   <script>
     $(function () {
