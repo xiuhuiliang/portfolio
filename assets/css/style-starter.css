@@ -16221,7 +16221,7 @@ a.sb {
 /*--/w3l-inner-page--*/
 .w3l-inner-page-breadcrumb {
   min-height: 260px;
-  background: url(../images/banner1.jpg) no-repeat center;
+  background: url(../images/banner5.jpg) no-repeat center;
   -ms-background-size: cover;
   background-size: cover;
   z-index: 0;
@@ -16374,7 +16374,7 @@ h2.title {
   align-items: center;
   background-size: cover;
   -ms-background-size: cover;
-  background-image: var(--banner), url(../images/banner1.jpg);
+  background-image: var(--banner), url(../images/banner5.jpg);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center;
 }
