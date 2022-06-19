@@ -13,7 +13,7 @@ Author URL: http://w3layouts.com
  /*--新增區--*/
  .dropdown:hover .dropdown-menu {
   display: block;
-  margin-top: 0;
+  margin-top: auto;
 }
 
 /*--新增結束區--*/
@@ -10661,6 +10661,16 @@ button.bg-dark:focus {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.multiline-ellipsis { 
+  display: block;
+  display: -webkit-box;
+  max-width: 100%;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .text-left {
